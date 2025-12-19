@@ -9,18 +9,10 @@ export default function SectionIntro() {
         Интерфейсы, визуал и системный подход к разработке
       </p>
 
-      <p className={styles.subtitle}>Гафиатуллина Рената</p>
-
-      <div className={styles.image}>
-        <img
-          className={styles.imageSrc}
-          src="/IMG_2021.JPG"
-          alt="Renata Gafiatullina"
-        />
-      </div>
+      <h2 className={styles.subtitle}>Гафиатуллина Рената</h2>
 
       <div className={styles.ctaBox}>
-        <button className={styles.button}>смотреть проекты</button>
+        <a className={styles.button} href="https://t.me/renatagftl">связаться со мной</a>
 
         <p className={styles.description}>
           Работаю с интерфейсами, логикой и архитектурой, уделяя особое внимание

@@ -1,8 +1,8 @@
 // import { Header } from "@/components/Header/Header";
-// import { Footer} from "@/components/Footer/Footer";
 import "./styles/fonts.css";
 import "./globals.css";
 import "normalize.css";
+import Footer from "./sections/Footer/Footer";
 
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
         <div className="container">
           {/* <Header /> */}
           {children}
-          {/* <Footer/> */}
+            <Footer/>
         </div>
       </body>
     </html>
